@@ -1,0 +1,42 @@
+{
+  "name": "grunt-bagel-sass-path",
+  "description": "Sets up sass paths dynamically based on installed bagel modules and  themeing.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/goodtwin/grunt-bagel-sass-path",
+  "author": {
+    "name": "GoodTwin Design Inc.",
+    "email": "andrew@good-twin.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goodtwin/grunt-bagel-sass-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/goodtwin/grunt-bagel-sass-path/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/goodtwin/grunt-bagel-sass-path/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-sass" : "^0.8.1",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

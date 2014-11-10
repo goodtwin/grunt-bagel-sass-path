@@ -1,0 +1,7 @@
+{
+  "loadPath" : [
+    "./",
+    "test/fixtures/glob_path/",
+    "node_modules/"
+  ]
+}
